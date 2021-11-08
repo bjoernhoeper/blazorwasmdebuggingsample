@@ -13,4 +13,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorWasm.Client\BlazorWasm.Client.csproj" />
+  </ItemGroup>
+
 </Project>
